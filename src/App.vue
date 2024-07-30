@@ -1,18 +1,11 @@
 <template>
   <v-app>
-    <!-- Barra de Navegación -->
     <v-app-bar app color="red" dark>
       <v-toolbar-title>Pokédex</v-toolbar-title>
 
 
       <v-spacer></v-spacer>
       
-      <!-- Enlaces de navegación en pantalla grande -->
-      <v-btn text @click="$router.push('/')">Inicio</v-btn>
-      <v-btn text @click="$router.push('/about')">Acerca de</v-btn>
-      <v-btn text @click="$router.push('/contact')">Contacto</v-btn>
-      
-      <!-- Menú desplegable para dispositivos móviles -->
       <v-navigation-drawer v-model="drawer" app temporary>
         <v-list>
           <v-list-item @click="$router.push('/')">
@@ -34,7 +27,6 @@
       </v-navigation-drawer>
     </v-app-bar>
 
-    <!-- Contenido Principal -->
     <v-main>
       <v-container>
         <router-view></router-view>

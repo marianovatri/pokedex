@@ -1,6 +1,5 @@
 <template>
   <v-container class="about">
-    <!-- Paginación -->
     <v-pagination
       v-if="pokedexInfo.results"
       v-model:page="page"
@@ -10,7 +9,6 @@
       @update:modelValue="handlePageChange"
     ></v-pagination>
 
-    <!-- Lista de Pokémon -->
     <v-row class="pokemonBox" v-if="pokedexInfo.results && !error" justify="center">
       <v-col
         v-for="onePokemon in pokedexInfo.results"
@@ -37,7 +35,6 @@
       </v-col>
     </v-row>
 
-    <!-- Paginación -->
     <v-pagination
       v-if="pokedexInfo.results"
       v-model:page="page"
