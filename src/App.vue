@@ -6,25 +6,6 @@
 
       <v-spacer></v-spacer>
       
-      <v-navigation-drawer v-model="drawer" app temporary>
-        <v-list>
-          <v-list-item @click="$router.push('/')">
-            <v-list-item-content>
-              <v-list-item-title>Inicio</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-          <v-list-item @click="$router.push('/about')">
-            <v-list-item-content>
-              <v-list-item-title>Acerca de</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-          <v-list-item @click="$router.push('/contact')">
-            <v-list-item-content>
-              <v-list-item-title>Contacto</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-        </v-list>
-      </v-navigation-drawer>
     </v-app-bar>
 
     <v-main>
