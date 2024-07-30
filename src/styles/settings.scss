@@ -1,0 +1,75 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/`
+// @use 'vuetify/settings' with (
+//   $color-pack: false
+// );
+
+.grass {
+  background-color: #81ff81 !important;
+}
+
+.poison {
+  background-color: #7fdf00 !important;
+}
+
+.electric {
+  background-color: #d0ff00 !important;
+}
+.ground {
+  background-color: #aeb100 !important;
+}
+.fairy {
+  background-color: #f4a9f5 !important;
+}
+
+.psychic {
+  background-color: #eb7e3e !important;
+}
+
+.rock {
+  background-color: #c3c3c3 !important;
+}
+
+.fighting {
+  background-color: #8f99bd !important;
+}
+.ghost {
+  background-color: #bb96cd !important;
+}
+.ice {
+  background-color: #9ac2ff !important;
+}
+.dragon {
+  background-color: #fd7e7e !important;
+}
+.dark {
+  background-color: #9f9f9f !important;
+}
+.steel {
+  background-color: #d9d9d9 !important;
+}
+
+.fire {
+  background-color: #f6be98 !important;
+}
+
+.flying {
+  background-color: #0000FF !important;
+}
+
+.water {
+  background-color: #97afe9 !important;
+}
+
+.bug {
+  background-color: #81c784 !important;
+}
+
+.normal {
+  background-color: #e6ebb3 !important;
+}
